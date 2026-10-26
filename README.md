@@ -1,18 +1,3 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBYiGjl_gdPCbB8ah11smYPWzIwifmetoQ",
-  authDomain: "cloudy-telephone.firebaseapp.com",
-  databaseURL: "https://cloudy-telephone-default-rtdb.firebaseio.com",
-  projectId: "cloudy-telephone",
-  storageBucket: "cloudy-telephone.firebasestorage.app",
-  messagingSenderId: "170993461007",
-  appId: "1:170993461007:web:5ada6c956f291db6a1407a"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+How it plays
+Each player writes a silly prompt, draws someone else's prompt, then describes someone else's drawing, in 5 quick steps. 
+Each chain passes through 5 different people. At the end you play back the funniest chains on the shared screen and everyone votes for a winner.
